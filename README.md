@@ -8,6 +8,14 @@ Web3游戏开发集训营由Polygon&ChainIDE&登链社区联合主办，是专�
 
 Web3游戏开发集训营课程分享将以线上直播形式开展，活动全程免费，此外，导师会在Web3游戏集训营社群内进行技术答疑。
 
+## 主办方介绍
+
+Polygon作为区块链行业Web3时代的引领者，其愿景是成为全球第一且唯一的Layer2聚合器，致力于解决目前以太坊高拥堵、高gas的痛点。Polygon生态中有超5000+多样化Dapp，涉及DEX、NFT、DeFi、GameFi等领域。Polygon提供PoS、Plasma、zkRollups、Optimistic Rollups、Validium、Hermez ZKEVM,  Polygon Miden, Polygon Zero, Polygon NightFall等多种Layer2技术解决方案，在保护系统和实现治理中发挥重要作用。
+
+ChainIDE是纯白矩阵自主研发的全球首个云端多链的区块链集成开发环境，支持包括FaceBook Diem、蚂蚁链、以太坊、微众银行FiscoBcos、Polygon、华为鲲鹏、趣链飞洛等知名区块链底层环境。ChainIDE提供云端编译功能，无需繁琐的安装设置，加速开发迭代速度，也是全球区块链开发者最大的流量入口。 
+
+登链社区（Learnblockchain.cn）是一个专注于区块链技术内容的开发者社区，汇聚了国内优质的区块链技术专家、文章、问答、文档等技术资源，社区用户超过130万，是国内区块链开发者们最喜爱的学习交流平台。
+
 ## 活动流程
 
 活动视频可以点击[这里](https://bbs.csdn.net/forums/polygon)回顾
