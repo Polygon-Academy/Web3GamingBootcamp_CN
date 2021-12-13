@@ -21,20 +21,31 @@ ChainIDE是纯白矩阵自主研发的全球首个云端多链的区块链集成
 活动视频可以点击下面的链接：
 
 ### Day 1: [Web3游戏训练营开幕日](https://live.csdn.net/room/weixin_32256545/Pv5t3v0U)
+
 🔹开幕式 (Brian Seong | Polygon中国开发者社区负责人)
+
 🔹从区块链到元宇宙 (吴啸 | ChainIDE创始人)
+
 🔹Polygon介绍 (Cora | Polygon南亚市场经理)
+
 🤙共计接近2000人参与本次活动
 
 ### Day 2: [ChainIDE开发快速启动](https://live.csdn.net/room/weixin_32256545/1VYHnVPd)
+
 🔹ChainIDE: 一款云端多链应用开发平台（吴封涛，ChainIDE技术大使）
+
 🔹沙盒游戏经济探索（陶荣祺，元宇宙资本合伙人）
+
 🤙共计接近1100+人参与本次活动
+
 💻Workshop的代码链接[ChainIDE Workshop](https://github.com/Polygon-Academy/Tutorial-ChainIDE)
 
 ### Day 3: [Polygon开发快速启动](https://live.csdn.net/room/weixin_32256545/gSJ3l3SL)
+
 🔹Polygon开发showcase（Brian Seong，Polygon中国开发负责人）
+
 🤙共计接近1000+人参与本次活动
+
 💻Workshop中所有的链接[Polygon Workshop Bookmarks](./PolygonWorkshopLinks.md)
 
 下周讲迎来更多来此Polygon生态上开发者们的分享，敬请期待～！
@@ -78,7 +89,7 @@ ChainIDE是纯白矩阵自主研发的全球首个云端多链的区块链集成
 
 ## Bounty提交要求
 
-
+具体提交要求点击[这里](./HowToSubmit.md)
 
 ## 你的收获
 

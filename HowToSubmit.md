@@ -75,6 +75,7 @@ cd xxxxxxxxxxx
 
 ```
 队伍编号：
+选择的Bounty：
 队内分工：
 项目简介：
 视频链接：（建议bilibili视频或者youtube视频链接）
