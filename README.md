@@ -98,15 +98,18 @@ ChainIDE是纯白矩阵自主研发的全球首个云端多链的区块链集成
 ### 要求
 
 建议组队不超过5个人，并且每个人都有自己负责的模块。
+组队的deadline是北京时间12月20号晚上23:59分，鼓励大家尽快组织起自己的队伍～！
 
 ### 提交组队信息
 
 我们鼓励各位开发者以及高校学生们来组队参加我们的bounty，下面是你的组队信息填写的入口：
 
-[《Web3游戏训练营 组队 问卷》](https://www.wenjuan.com/s/UZBZJvt7eH/#)
-<center><img src="./assets/GroupFormationQR.png" width="100"></center>
+| 组好队的请扫这里 | 没有组队希望被分配的请扫这里 |
+| ------------- | ------------------------ |
+| <img src="./assets/GroupFormationQR.png" width="100"> | <img src="./assets/GroupFormationRequest.png" width="100"> |
 
-***对于组好队的小组，假若最后你们小组提交了你们的bounty项目，那么该小组的每个组员都将获得 <u>5 Matic</u> 的奖学金（每人仅限领取一次奖学金）。***
+
+***最终组好队的小组，假若最后你们小组提交了你们的bounty项目，那么该小组的每个组员都将获得 <u>5 Matic</u> 的奖学金（每人仅限领取一次奖学金）。***
 
 ## 你的收获
 
