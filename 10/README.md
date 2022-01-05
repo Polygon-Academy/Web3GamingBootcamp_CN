@@ -8,4 +8,4 @@
 
 视频链接：（建议bilibili视频或者youtube视频链接）:
 
-仓库地址（含ppt）：
+仓库地址（含ppt）：https://github.com/DessertHeart/Web3GamingBootcamp_CN/tree/master/10
