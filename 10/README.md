@@ -21,7 +21,7 @@
 <br>
 此外，企业可以在现场销售其产品（如钻石戒指或项链），我们将为在Witness上购买该产品的情侣几率提供该产品的专属NFT，故平台上的打卡生态也是 该电商销售的激励因素。（详见白皮书）
 
-## 视频链接：（建议bilibili视频或者youtube视频链接）:
+## 视频链接：
 
 ## 仓库地址（含ppt）：
 https://github.com/DessertHeart/Web3GamingBootcamp_CN/tree/master/10
