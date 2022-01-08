@@ -13,6 +13,12 @@ Kevin: 队长 全栈开发  catmi666@163.com
 链接：https://pan.baidu.com/s/13kHDr6FFTll_u1got-GAcg 
 提取码：d8j8  （如失效请及时联系）
 
+
+
+# 项目地址（github）：
+
+https://github.com/CatKevin/Web3GamingBootcamp_CN/tree/master/projects/16
+
 # 游戏界面：（演示示例）
 
 ## 首页--有提示连接钱包
