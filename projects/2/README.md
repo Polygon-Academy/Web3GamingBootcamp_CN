@@ -30,5 +30,5 @@ Welcome to the Survivorvers！
 Youtube：https://youtu.be/N6Tp_fFbZ5E
 
 ## 仓库地址（含白皮书）
-
+https://github.com/suiqiyuan/Web3GamingBootcamp_CN/tree/master/projects/2
 ### 
