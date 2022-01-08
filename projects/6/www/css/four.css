@@ -1,0 +1,41 @@
+/*four-wrap*/
+.four-wrap {
+    width: 100%;
+    height: 1332px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.four-wrap .four {
+    width: 100%;
+    height: 1332px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../image/four.png) no-repeat center center;
+    position: relative;
+    cursor: pointer;
+}
+
+.four-wrap .four .fourbox {
+    width: 897px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.four-wrap .four h1 {
+    font-family: "Perpetua Titling MT";
+    color: #efda88;
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: normal;
+    padding-top: 300px;
+}
+
+.four-wrap .four p {
+    font-size: 24px;
+    color: #FFF;
+    text-align: left;
+    padding: 40px 0px;
+    line-height: 30px;
+}

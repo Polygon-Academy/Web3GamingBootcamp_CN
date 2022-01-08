@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font: 18px/1.5em "Arial";
+    background: black;
+}
+
+body, p, ul, li, dl, dt, dd, h1, h2, h3, h4, input, form, option {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+
+.nav {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --heading-font: 'Oswald',sans-serif;
+    --para-font: 'Open Sans',sans-serif;
+    --heading-color: #fff;
+    --para-color: #dedee2;
+    --main-color: #05c3de;
+    --bg-main-color: #171744;
+    --bg-second-color: #1c1d55;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    font-size: 16px;
+    font-family: var(--para-font);
+    font-weight: 400;
+    box-sizing: border-box;
+    display: block;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: var(--bg-second-color);
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.1);
+}
+
+/*logo及导航栏*/
+.logo-wrap {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../image/Top-background.jpg) no-repeat center bottom;
+}
+
+.logo-wrap .logo {
+    width: 1300px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.logo-wrap .logo .logo-l {
+    width: 320px;
+    height: 75px;
+    float: left;
+    background: url(../image/Logo.png) no-repeat left -4px;
+}
+
+.logo-wrap .logo .logo-r {
+    width: 900px;
+    height: 75px;
+    float: right;
+}
+
+.logo-r a {
+    width: 122px;
+    height: 75px;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    text-decoration: none;
+    color: #dad9d5;
+}
+
+.logo-r a:hover {
+    color: #edcc76;
+    font-weight: bold;
+    background: url(../image/homebd.png) no-repeat center center;
+}
+
+.logo-r a .Nav1 {
+    color: #edcc76;
+    font-weight: bold;
+    width: 122px;
+    height: 60px;
+}
+
+.logo-r a .Nav1:hover {
+    color: #edcc76
+}
+
+/*导航栏下面链接*/
+.next-wrap {
+    width: 100%;
+    height: 38px;
+    background-color: #4a191b;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.next-wrap .link {
+    width: 80%;
+    /*height: 36px;*/
+    /*margin-left: 1170px;*/
+    /*float: left;*/
+    display: flex;
+    justify-content: flex-end;
+}
+
+.next-wrap .link .wallet {
+    width: 160px;
+    height: 24px;
+    border: 1px solid #FFF;
+    /*padding-left: 20px;*/
+    float: left;
+    margin-top: 6px;
+}
+
+.next-wrap .link .wallet a {
+    margin-left: 20px;
+    font-family: "Arial";
+    color: #dad9d5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.next-wrap .link .wallet .address {
+    margin-left: 10px;
+    font-family: "Arial";
+    color: #dad9d5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.next-wrap .link .sign {
+    padding-left: 80px;
+    padding-right: 60px;
+    float: left;
+    /*padding-top: 4px;*/
+}
+
+.next-wrap .link .sign a {
+    padding-left: 20px;
+    /*padding-right: 20px;*/
+    float: left;
+    padding-top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.next-wrap .link .pattern {
+    width: 97px;
+    float: left;
+    background-color: #49191b;
+    padding-top: 5px;
+}
+
+.next-wrap .link .pattern a {
+    font-size: 16px;
+    color: #dad9d5;
+    text-align: center;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+
+.next-wrap .link .next-tom select {
+    height: 96px;
+    background-color: #49191b;
+    font-family: "Arial";
+    color: #dad9d5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.next-wrap .link .next-tom select .seltwo {
+    font-family: "微软雅黑";
+}
+
+/*banner-wrap*/
+.banner-wrap {
+    width: 100%;
+    height: 1000px;
+    margin-top: 40px;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.banner-wrap .banner {
+    width: 100%;
+    height: 1100px;
+    margin-bottom: 0px;
+    text-align: center;
+    background: url(../image/banner.png) no-repeat center center;
+    position: relative;
+    cursor: pointer;
+}
+
+.banner-wrap .banner .banner-txt{
+    font-family: "微软雅黑";
+    text-align: left;
+    padding-top: 520px;
+    padding-left: 526px;
+    color: white;
+    font-size: 19px;
+}
+
+
+/*foot-wrap*/
+.foot-wrap {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.foot-wrap .foot {
+    width: 100%;
+    height: 90px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+    position: relative;
+    cursor: pointer;
+}
+.foot-wrap .foot ul{
+    margin-top: 30px;
+    margin-left: 10%;
+    float: left;
+}
+
+.foot-wrap .foot ul li{
+    float: left;
+    margin-left: 30px;
+}
+.foot-wrap .foot ul .icon1{
+    margin-left: 0px;
+}
+.foot-wrap .foot ul .wersion{
+    font-size: 18px;
+    font-family: "Arial Regular";
+    color: #dad9d5;
+}
+.foot-wrap .foot p{
+    font-size: 18px;
+    font-family: "Arial Regular";
+    color: #dad9d5;
+    float: right;
+    margin-right: 15%;
+    line-height: 90px;
+}
+
+.hide{
+    display: none;
+}

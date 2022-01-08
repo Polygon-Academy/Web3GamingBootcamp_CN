@@ -1,0 +1,147 @@
+
+/*seven-wrap*/
+.seven-wrap {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.seven-wrap .seven {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../image/seven.png) repeat center center;
+    position: relative;
+    cursor: pointer;
+}
+
+.seven-wrap .seven .sevenbox {
+    width: 1449px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../image/7-bd.png) no-repeat right bottom;
+}
+
+.seven-wrap .seven .sevenbox h1 {
+    font-family: "Perpetua Titling MT";
+    color: #efda88;
+    font-size: 36px;
+    padding-top: 200px;
+    line-height: 60px;
+    font-weight: normal;
+}
+
+.seven-wrap .seven .sevenbox ul {
+    padding-left: 100px;
+}
+
+.seven-wrap .seven .sevenbox ul li a {
+    font-family: "Arial";
+    color: #010100;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    margin: 34px 0px 0px 75px;
+    display: flex;
+    flex-direction: row;
+}
+
+.seven-wrap .seven .sevenbox ul li span {
+    text-decoration: none;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 751px;
+    margin-left: 73px;
+    margin-top: 25px;
+    border-top: 1px solid #010100;
+
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox1 {
+    width: 998px;
+    height: 247px;
+    background: url(../image/faq_bg.png) no-repeat center center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox1_detail {
+    width: 998px;
+    height: 160px;
+    background: url(../image/faq_bg.png) no-repeat center center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.seven-wrap .seven .sevenbox ul li.sevenbox2 {
+    width: 998px;
+    height: 98px;
+    background: url(../image/8-2.png) no-repeat center center;
+    margin-top: 30px;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox2_detail {
+    width: 998px;
+    height: 160px;
+    background: url(../image/faq_bg.png) no-repeat center center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox3 {
+    width: 998px;
+    height: 98px;
+    background: url(../image/8-3.png) no-repeat center center;
+    margin-top: 30px;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox3_detail {
+    width: 998px;
+    height: 160px;
+    background: url(../image/faq_bg.png) no-repeat center center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox4 {
+    width: 998px;
+    height: 98px;
+    background: url(../image/8-4.png) no-repeat center center;
+    margin-top: 30px;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox4_detail {
+    width: 998px;
+    height: 210px;
+    background: url(../image/faq_bg.png) no-repeat center center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox5 {
+    width: 998px;
+    height: 98px;
+    background: url(../image/8-5.png) no-repeat center center;
+    margin-top: 30px;
+}
+
+.seven-wrap .seven .sevenbox ul li.sevenbox5_detail {
+    width: 998px;
+    height: 160px;
+    background: url(../image/faq_bg.png) no-repeat center center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}

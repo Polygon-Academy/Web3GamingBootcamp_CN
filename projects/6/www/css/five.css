@@ -1,0 +1,156 @@
+
+
+/*five-wrap*/
+.five-wrap {
+    width: 100%;
+    height: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #FFF;
+}
+
+.five-wrap .five {
+    width: 100%;
+    height: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../image/five.png) no-repeat center center;
+    position: relative;
+    cursor: pointer;
+}
+
+.five-wrap .five .fivebox {
+    width: 1200px;
+    height: 1080px;
+    margin: 0px auto;
+    background: url(../image/roadmap-line.png) no-repeat center bottom;
+}
+
+.five-wrap .five .fivebox h1 {
+    font-family: "Perpetua Titling MT";
+    color: #efda88;
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: normal;
+    padding-top: 140px;
+}
+
+.five-wrap .five .fivebox .tit-1 {
+    height: 152px;
+    width: 554px;
+    text-align: left;
+    margin-left: 630PX;
+    margin-top: 20px;
+}
+
+.five-wrap .five .fivebox .tit-1 h3 {
+    font-family: "Arial";
+    color: #edcc76;
+    font-size: 18px;
+}
+
+.five-wrap .five .fivebox .tit-1 p {
+    font-family: "Arial";
+    color: #FFF;
+    font-size: 14px;
+}
+
+.five-wrap .five .fivebox .tit-2 {
+    height: 152px;
+    width: 554px;
+    text-align: right;
+    margin-top: 10PX;
+    margin-left: 20px;
+}
+
+.five-wrap .five .fivebox .tit-2 h3 {
+    font-family: "Arial";
+    color: #edcc76;
+    font-size: 18px;
+}
+
+.five-wrap .five .fivebox .tit-2 p {
+    font-family: "Arial";
+    color: #FFF;
+    font-size: 14px;
+}
+
+.five-wrap .five .fivebox .tit-3 {
+    height: 152px;
+    width: 554px;
+    text-align: left;
+    margin-top: 6PX;
+    margin-left: 630px;
+}
+
+.five-wrap .five .fivebox .tit-3 h3 {
+    font-family: "Arial";
+    color: #edcc76;
+    font-size: 18px;
+}
+
+.five-wrap .five .fivebox .tit-3 p {
+    font-family: "Arial";
+    color: #FFF;
+    font-size: 14px;
+}
+
+.five-wrap .five .fivebox .tit-4 {
+    height: 152px;
+    width: 554px;
+    text-align: right;
+    margin-top: 10PX;
+    margin-left: 20px;
+}
+
+.five-wrap .five .fivebox .tit-4 h3 {
+    font-family: "Arial";
+    color: #edcc76;
+    font-size: 18px;
+}
+
+.five-wrap .five .fivebox .tit-4 p {
+    font-family: "Arial";
+    color: #FFF;
+    font-size: 14px;
+}
+
+.five-wrap .five .fivebox .tit-5 {
+    height: 152px;
+    width: 554px;
+    text-align: left;
+    margin-top: -16PX;
+    margin-left: 630px;
+}
+
+.five-wrap .five .fivebox .tit-5 h3 {
+    font-family: "Arial";
+    color: #edcc76;
+    font-size: 18px;
+}
+
+.five-wrap .five .fivebox .tit-5 p {
+    font-family: "Arial";
+    color: #FFF;
+    font-size: 14px;
+}
+
+.five-wrap .five .fivebox .tit-6 {
+    height: 152px;
+    width: 554px;
+    text-align: right;
+    margin-top: 10PX;
+    margin-left: 20px;
+}
+
+.five-wrap .five .fivebox .tit-6 h3 {
+    font-family: "Arial";
+    color: #edcc76;
+    font-size: 18px;
+}
+
+.five-wrap .five .fivebox .tit-6 p {
+    font-family: "Arial";
+    color: #FFF;
+    font-size: 14px;
+}
