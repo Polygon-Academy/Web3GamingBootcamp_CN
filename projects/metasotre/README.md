@@ -24,7 +24,7 @@ The UI details and style are as follows
 
 
 # 视频链接：
-链接:https://pan.baidu.com/s/1HzCqO8rN_x8lhfLC2jklcg  密码:s4oe
+https://www.bilibili.com/video/BV11r4y1v7xD/
 
 # 仓库地址（含ppt）：
-https://github.com/bladegame/Metaverse-Developers/tree/main/projects/1
+https://github.com/Eternity-labs/MateStore-web
