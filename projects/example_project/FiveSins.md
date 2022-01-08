@@ -9,19 +9,18 @@ FiveSins is a Web3 Game
 - Rui Shang：交互和体验、世界观设计
 - Xin Ma：产品和经济模型设计
 
-​
 
 ## 项目介绍
-
-**github：** https://github.com/ahaclub/FiveSins
-
-**掉落合成的 PVP 链游**
+**掉落合成的PVP链游**
 
 - FiveSins 是一个收集卡牌参与对决的 PVP 游戏。玩家通过收集 NFT 卡牌，参与对局时自动分为两方阵营，卡牌掉落合成
 - 秉持 Play to earn 的原则，每一次对局的胜利方会获得收益，若成功合成人类，则会获取超额收益
 - 基于元素升级合成人类的世界观，项目希望借此引发人们对人性底层的思考
 
-​
+* github：[https://github.com/ahaclub/FiveSins](https://github.com/ahaclub/FiveSins)
+* youtube：[https://youtu.be/peDjeXcbGMg](https://youtu.be/peDjeXcbGMg)
+
+
 
 ## 世界观
 **五宗罪，构成了人类**
