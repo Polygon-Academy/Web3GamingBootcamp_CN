@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaiShang World Generator</title>
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@1.19.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/daisyui/1.19.0/full.min.css"
+      integrity="sha512-0SSPZdVmpLVS26YTwbGc1ShY1yaip9ftVZWKu8zqKMQ8p4QHjKOg4Y7JoytzuliH4kfMHHYyCu4J/SgGIL+tsg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0/tailwind.min.css"
+      integrity="sha512-ksC7McuoU4VJ07WGtca5INyDRXzGsmhyEEJYzoWBkjC/KwuG+IK/pFnxJFNIGmOd8pmGexOxd3FziCPZXQJ4lA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- THE map -->
+    <div id="map-wrapper">
+      <!-- <p id="poem">一花一世界, 一叶一菩提.</p> -->
+      <div id="original-map"></div>
+      <div id="map-container" class="hidden">
+        <div id="moving-block" class="hidden" style="left: 0vw; top: 0vw">
+          <img src="assets/img/block/hero.gif" alt="">
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <!-- Inputs -->
+    <div style="width: calc(20% - 1rem); max-height: 100vh; margin-left: 10px">
+      <!-- Generate map inputs -->
+      <div class="form-control flex" id="inputs">
+        <!-- Block number input -->
+        <input
+          type="text"
+          placeholder="Block number #"
+          class="input input-bordered mx-10 my-5"
+          id="block-number"
+        />
+        <!-- Chain source input -->
+        <input
+          type="text"
+          placeholder="Data source @"
+          class="input input-bordered mx-10 my-5"
+          id="data-source"
+        />
+        <!-- Rules selector -->
+        <div class="mx-10 my-5 rule-border" id="rules">
+          <label class="label my-2">
+            <span class="label-text" style="margin-left: 1.25rem">Rules:</span>
+          </label>
+          <label class="cursor-pointer label mx-5 my-1">
+            <span class="label-text">Rule A</span>
+            <input
+              type="radio"
+              name="rule"
+              class="rules checkbox checkbox-primary"
+              id="RuleA"
+              checked
+            />
+          </label>
+          <label class="cursor-pointer label mx-5 my-1">
+            <span class="label-text">Rule B</span>
+            <input
+              type="radio"
+              name="rule"
+              class="rules checkbox checkbox-primary"
+              id="RuleB"
+            />
+          </label>
+        </div>
+        <!-- Mint name input -->
+        <input
+          type="text"
+          placeholder="Minter name :"
+          class="input input-bordered mx-5 my-5 hidden"
+          id="mint-name"
+        />
+        <!-- Mint description input -->
+        <input
+          type="text"
+          placeholder="Map description :"
+          class="input input-bordered mx-5 my-5 hidden"
+          id="mint-description"
+        />
+        <!-- Mint address input -->
+        <input
+          type="text"
+          placeholder="Minter address @"
+          class="input input-bordered mx-5 my-5 hidden"
+          id="mint-address"
+        />
+        <!-- Mint coupon id input -->
+        <input
+          type="text"
+          placeholder="Mint coupon :"
+          class="input input-bordered mx-5 my-5 hidden"
+          id="mint-coupon"
+        />
+        <!-- Submit button -->
+        <button class="btn btn-primary mx-10 my-5" id="generate">
+          Generate!
+        </button>
+        <label
+          id="token-id-label"
+          for="token-id"
+          class="label mx-5"
+        >Token ID:</label>
+        <input
+          type="text"
+          name="token-id"
+          value="1"
+          placeholder="Token id @"
+          class="input input-bordered mx-5 my-1"
+          id="token-id"
+        />
+        <label
+          id="contract-id-label"
+          for="contract-id"
+          class="label mx-5"
+        >Contract ID:</label>
+        <input
+          type="text"
+          name="contract-id"
+          value="1"
+          placeholder="Contract id :"
+          class="input input-bordered mx-5 my-1"
+          id="contract-id"
+        />
+        <button class="btn btn-primary mx-10 my-5" id="view">
+          View!
+        </button>
+        <!-- Mint button -->
+        <button class="btn btn-accent mx-5 hidden" id="mint">Mint!</button>
+      </div>
+
+      <!-- Alert box -->
+      <div class="alert alert-error mx-10 opacity-0" id="alert">
+        <div class="flex-1">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            class="w-6 h-6 mx-2 stroke-current"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"
+            ></path>
+          </svg>
+          <label>Fields not filled correctly!</label>
+        </div>
+      </div>
+    </div>
+
+    <!-- progress bar -->
+    <div class="artboard phone fixed bottom-0 left-0 px-2" style="width: 100vw">
+      <progress
+        id="progress"
+        class="progress progress-primary hidden"
+        value="0"
+        max="100"
+      ></progress>
+    </div>
+
+    <div class="dialog hidden">
+      <img src="assets/img/chat.gif" alt="chat">
+    </div>
+
+    <!-- axios -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+      integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- generate and mint -->
+    <script src="assets/js/script.js"></script>
+    <!-- moving block -->
+    <script src="assets/js/game.js"></script>
+  </body>
+</html>

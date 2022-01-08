@@ -1,0 +1,14 @@
+<b>元素描述:</b> 
+<br>
+<%= inspect(@map_2d.ele_description) %>
+<br>
+<b>类型:</b> 
+<br>
+<%= inspect(@map_2d.type) %>
+<br>
+<b>二维抽象矩阵地图:</b> 
+<br>
+<%= Enum.map(@map_2d.map, fn line -> %>
+    <%= inspect(line) %>
+    <br>
+<% end) %>
