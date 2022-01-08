@@ -17,19 +17,19 @@ Kevin: 队长 全栈开发  catmi666@163.com
 
 ## 首页--有提示连接钱包
 
-![image-20220109005021280](.\images\image-20220109005021280.png)
+![image-20220109005021280](https://raw.githubusercontent.com/CatKevin/Web3GamingBootcamp_CN/master/projects/16/images/image-20220109005021280.png)
 
 备注：用户需要支付一定的Matic才可以加入游戏。
 
 ## 游戏主界面 -- 每日市场行情
 
-![image-20220109005326940](.\images\image-20220109005326940.png)
+![image-20220109005326940](https://raw.githubusercontent.com/CatKevin/Web3GamingBootcamp_CN/master/projects/16/images/image-20220109005326940.png)
 
 备注：市场行情用于提示用户近年各种货物的情况。
 
 ## 游戏主界面--模拟投资操作界面
 
-![image-20220109005425190](.\images\image-20220109005425190.png)
+![image-20220109005425190](https://raw.githubusercontent.com/CatKevin/Web3GamingBootcamp_CN/master/projects/16/images/image-20220109005425190.png)
 
 备注：
 
