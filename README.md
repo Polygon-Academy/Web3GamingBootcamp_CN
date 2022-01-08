@@ -46,6 +46,33 @@ ChainIDE是纯白矩阵自主研发的全球首个云端多链的区块链集成
 📺 视频链接：[Bilibili](https://www.bilibili.com/video/BV1kF411z7Hw), [CSDN](https://live.csdn.net/room/weixin_32256545/gSJ3l3SL)
 💻 Workshop中所有的链接[Polygon Workshop Bookmarks](./PolygonWorkshopLinks.md)
 
+### Day 4: Polygon Dapp的升级之道
+
+- 🔸Crust - Storage on Polygon（Luke Fan，Crust亚洲开发负责人）
+- 🔸Chainlink - Oracle on Polygon（Wally Yu/ Chainlink解决方案架构师）
+- 🔸The Graph - Data Query on Polygon（Jerry，The Graph社区技术支持）
+- 🤙 共计接近700+人参与本次活动
+
+📺 视频链接：[Bilibili](https://www.bilibili.com/video/BV1hr4y1U74r), [CSDN](https://live.csdn.net/room/weixin_32256545/w1YvqVKf)
+💻 CrustNetwork的workshop链接[workshop链接](https://github.com/Polygon-Academy/Tutorial-CrustNetwork)
+
+### Day 5: Web3游戏案例分享
+
+- 🔸Aavegochi的元宇宙设想（Coder Dan, Pixelcraft Studios联合创始人）
+- 🔸Dark Forest 黑暗森林生态（ddy, DfArchon小组组长）
+- 🤙 共计接近1100+人参与本次活动
+
+📺 视频链接：[Bilibili](https://www.bilibili.com/video/BV1NQ4y1Y7cA), [CSDN](https://live.csdn.net/room/weixin_32256545/bMJbh5hv)
+
+### Day 6: Dapp案例演示
+
+- 🔸全栈DAO workshop（Tiny熊，登链社区发起人）
+- 🔸全栈 NFT 市场（Lavender Zhou，CedgeDAO & Solidstake商务负责人）
+- 🤙 共计接近1200+人参与本次活动
+
+📺 视频链接：[Bilibili](https://www.bilibili.com/video/BV1Mi4y1o7fN), [CSDN](https://live.csdn.net/room/weixin_32256545/9ypf9GNq)
+💻 Workshop中的链接：[DAO Workshop](https://github.com/Polygon-Academy/Tutorial-DAO)、[NFT市场Workshop](https://github.com/Polygon-Academy/Tutorial-nft-marketplace)
+
 <center><img src="./assets/Agenda_Poster.JPG" width="500"></center>
 
 ## Bounty 设置
