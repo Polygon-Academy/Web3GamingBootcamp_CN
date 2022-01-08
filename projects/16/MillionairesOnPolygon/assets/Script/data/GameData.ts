@@ -33,7 +33,7 @@ export default class GameData extends cc.Component {
   private WareHouseCapcity = 0;//库存量
   private totoalWareHouseCapcity = 100 //总库存量
   private currentAge = 0;
-  private totalAge = 5;
+  private totalAge = 70;
   private maxTotoalWareHouseCapcity = 200;
 
   private eventObj = {
@@ -212,6 +212,7 @@ export default class GameData extends cc.Component {
     this.TotalAssetsNode.getComponent(cc.Label).string = this.FormatNum(this.totalAssets);
     if(this.currentAge + 1>=this.totalAge){
       console.log("退休了！")
+      NodeData.getGameComponent().leaveGame();
     }else{
       this.currentAge = this.currentAge + 1;
       this.AgeNode.getChildByName("ageNum").getComponent(cc.Label).string = this.currentAge + ''

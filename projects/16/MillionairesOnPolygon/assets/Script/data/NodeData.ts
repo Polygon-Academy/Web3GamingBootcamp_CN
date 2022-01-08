@@ -18,6 +18,10 @@ export default class NodeData{
         return cc.find("Canvas").getComponent("GameData");
     }
 
+    public static getGameComponent(){
+        return cc.find("Canvas").getComponent("Game");
+    }
+
     public static getMarketGoodsListComponent(){
         return cc.find("Canvas/Content/MarketPanel/MarketGoodsLeftPanel").getComponent("MarketGoodsList");
     }
