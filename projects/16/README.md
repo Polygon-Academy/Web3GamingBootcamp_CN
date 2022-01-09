@@ -8,6 +8,12 @@ Kevin: 队长 全栈开发  catmi666@163.com
 
 本游戏是模拟投资类游戏，玩家通过初始资金参与市场投资，以在规定的回合之内拿到更多的市场回报。
 
+# 体验链接：
+
+https://catkevin.github.io/Millionaires-On-Polygon-web/
+
+备注：请确保浏览器安装了MetaMask插件，以便正常参与游戏 ~ have a good time!
+
 # 视频链接：（含PPT）
 
 链接：https://pan.baidu.com/s/13kHDr6FFTll_u1got-GAcg 
