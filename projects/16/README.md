@@ -16,7 +16,9 @@ https://catkevin.github.io/Millionaires-On-Polygon-web/
 
 # 视频链接：（含PPT）
 
-链接：https://pan.baidu.com/s/13kHDr6FFTll_u1got-GAcg 
+YouTube: https://youtu.be/aGrUX1kip8s
+
+百度网盘链接：https://pan.baidu.com/s/13kHDr6FFTll_u1got-GAcg 
 提取码：d8j8  （如失效请及时联系）
 
 
