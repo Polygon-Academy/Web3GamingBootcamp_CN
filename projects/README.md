@@ -7,7 +7,7 @@
 	Yang Li：产品测评
 项目简介：Isekai Metaverse is a decentalized ACGN creator ecosystem led by community that enables  members to create animes, comics, games and novels.
 Isekai Metaverse uses AI algorithm powered incentive mechanism and creator protocol to build a bottom up ACGN metaverse where creators can use NFT culture lego bricks to participate community creation and eventually form a NFT content network.  Isekai Metaverse provides various creation tools and distribution channels.
-视频链接：https://www.youtube.com/watch?v=VbWI4AGtAZg
+视频链接：https://www.youtube.com/watch?v=OSnlc1Zlzd8
 仓库地址（含ppt）：https://github.com/IsekaiMetaverse/Customized-Isekai-Character-Minting-Dapp
 https://github.com/IsekaiMetaverse/Isekai-Character-Minter-hackathon
 https://github.com/IsekaiMetaverse/Isekai-Social-Network-hackathon
