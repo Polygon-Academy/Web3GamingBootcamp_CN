@@ -59,6 +59,11 @@ export default class NodeData{
     public static getJoinPanelComponent(){
         return cc.find("Canvas/Panel/JoinPanel").getComponent("joinPanel");
     }
+
+    public static getRankPanelComponent(){
+        return cc.find("Canvas/Panel/RankPanel").getComponent("RankPanel");
+    }
+
 };
 
 

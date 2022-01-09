@@ -41,4 +41,17 @@ export default class Loading extends cc.Component {
         this.node.getComponent("web3").StartGame();
     }
 
+    async openRankPanel(){
+        let data = await this.node.getComponent("web3").getRankData();
+        NodeData.getRankPanelComponent().OpenPanel(data);
+    }
+
+    totalBlock(){
+        this.node.getComponent("web3").totalBlockCall();
+    }
+
+    getTopPlayerCall(){
+        this.node.getComponent("web3").getTopPlayerCall();
+    }
+
 }

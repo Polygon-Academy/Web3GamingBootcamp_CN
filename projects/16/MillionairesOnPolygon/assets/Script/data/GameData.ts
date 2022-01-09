@@ -28,8 +28,8 @@ export default class GameData extends cc.Component {
   private myGoodsList = [];
   private myGoodsTypeNum = 0;
 
-  private myCash = 1000000;
-  private totalAssets = 1000000;
+  private myCash = 100000;
+  private totalAssets = 100000;
   private WareHouseCapcity = 0;//库存量
   private totoalWareHouseCapcity = 100 //总库存量
   private currentAge = 0;
@@ -127,6 +127,9 @@ export default class GameData extends cc.Component {
       this.eventObj.maxAssetsAge = this.currentAge;
     }
     this.eventObj.currentAge = this.currentAge;
+    console.log("########eventObj############")
+    console.log(this.eventObj)
+    console.log("####################")
   }
 
   resetAllData(){
@@ -136,8 +139,8 @@ export default class GameData extends cc.Component {
     this.myGoodsList = [];
     this.myGoodsTypeNum = 0;
     this.WareHouseCapcity = 0;//库存量
-    this.myCash = 1000000;
-    this.totalAssets = 1000000;
+    this.myCash = 100000;
+    this.totalAssets = 100000;
     this.currentAge = 0;
     this.eventObj = {
       maxAssets:0,
@@ -274,9 +277,6 @@ export default class GameData extends cc.Component {
         }
       }
     }
-    console.log("########marketTipArr############")
-    console.log(marketTipArr)
-    console.log("####################")
     // 更新marketTipPanel
     NodeData.getMarketTipPanelComponent().updateMarketTipsList(marketTipArr);
   }
@@ -340,37 +340,8 @@ export default class GameData extends cc.Component {
     this.CashNode.getComponent(cc.Label).string = this.myCash+'';
     this.TotalAssetsNode.getComponent(cc.Label).string = this.totalAssets+'';
     this.WareNode.getChildByName("wareNum").getComponent(cc.Label).string = this.WareHouseCapcity + '/' + this.totoalWareHouseCapcity;
-    console.log("########################")
-    console.log(this.myGoodsList)
-    console.log("########################")
-    console.log("########################")
     NodeData.getMyGoodsListComponent().updateMyGoodsList(this.myGoodsList)
   }
-
-  // updateUserBuyData(data){
-  //   let goodsItem = this.currentGoodsMarketData[data.goodsId];
-  //   let cashTmp = this.myCash - goodsItem.price*data.num;
-  //   if(cashTmp<0)return
-  //   let WareHouseCapcityTmp = this.WareHouseCapcity - data.num;
-  //   if(WareHouseCapcityTmp<0)return
-  //   this.myCash = cashTmp;
-  //   this.WareHouseCapcity = WareHouseCapcityTmp;
-  //   let index = this.searchItemInGoodsArr(data.goodsId,this.myGoodsList);
-  //   if(index>=0){
-  //     let totalNum = goodsItem.num + data.num;
-  //     let rangePriceTmp = Math.ceil((this.myGoodsList[index].num*goodsItem.price+goodsItem.price*data.num)/totalNum)
-  //     this.myGoodsList[index].rangePrice = rangePriceTmp;
-  //     this.myGoodsList[index].num = totalNum;
-  //   }else{
-  //     this.myGoodsList.push({
-  //       id:data.goodsId,
-  //       rangePrice:this.currentGoodsMarketData[data.goodsId].price,
-  //       num:data.num
-  //     })
-  //   }
-  //   this.CashNode.getComponent(cc.Label).string = this.myCash+''
-  //   this.TotalAssetsNode.getComponent(cc.Label).string = this.totalAssets+''
-  // }
 
   getItemIndexInGoodsArr(id,arr){
     for(let i=0;i<arr.length;i++){

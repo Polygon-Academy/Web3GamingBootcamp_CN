@@ -83,11 +83,11 @@ contract GovManager is Ownable {
 // SPDX-License-Identifier: GPL-3.0
 contract Game is GovManager {
     uint public totalPlayer;
-    mapping(uint=>address) players;
+    mapping(uint=>address) public players;
 
     uint public totalBlock;
 
-    mapping(uint=>GameBlock) GameBlocks;
+    mapping(uint=>GameBlock) public GameBlocks;
 
     struct GameBlock{
         uint startTime;
@@ -112,8 +112,8 @@ contract Game is GovManager {
     event payEvent(uint time,address sender,uint eventType,uint value);
 
     function StartGame() public payable {
-        require(msg.value >= 5*10^17,"matic value error");
-        if(address(this).balance>10^22){
+        require(msg.value >= 5*10**17,"matic value error");
+        if(address(this).balance>10**22){
             // transfer to winner
             address payable winner = GameBlocks[totalBlock].winner;
             distribution(winner);
@@ -129,11 +129,11 @@ contract Game is GovManager {
     }
 
     function distribution(address payable winner) internal {
-        winner.transfer(10^22);
+        winner.transfer(10**22);
     }
 
     function Expand() public payable {
-        require(msg.value >= 5*10^17,"matic value error");
+        require(msg.value >= 5*10**17,"matic value error");
         emit payEvent(now,msg.sender,1,msg.value);
     }
 

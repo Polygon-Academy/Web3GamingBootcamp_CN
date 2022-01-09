@@ -24,6 +24,19 @@ export const GameABI = [
 			{
 				"indexed": false,
 				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "debug",
+		"type": "event"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
 				"name": "time",
 				"type": "uint256"
 			},
@@ -115,6 +128,45 @@ export const GameABI = [
 		"type": "constructor"
 	},
 	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "GameBlocks",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "startTime",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address payable",
+				"name": "winner",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "topGrade",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "startId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "endId",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
 		"inputs": [],
 		"name": "getNow",
 		"outputs": [
@@ -180,6 +232,25 @@ export const GameABI = [
 	{
 		"inputs": [],
 		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "players",
 		"outputs": [
 			{
 				"internalType": "address",

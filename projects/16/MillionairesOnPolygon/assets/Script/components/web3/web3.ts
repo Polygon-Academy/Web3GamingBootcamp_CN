@@ -28,6 +28,7 @@ export default class Web3Class extends cc.Component {
     }
 
   async InitWeb3() {
+    let my = this;
     let checkMetaMaskFlag = await this.checkMetaMask();
     console.log(checkMetaMaskFlag);
     if (checkMetaMaskFlag == 2) {
@@ -47,17 +48,20 @@ export default class Web3Class extends cc.Component {
           this.currentAccount = accounts[0];
           await this.web3.eth.getBalance(accounts[0], (err, wei) => {
             if (!err) {
-              let balance = this.web3.utils.fromWei(wei, "ether");
+              let balance = my.web3.utils.fromWei(wei, "ether");
               console.log("Matic余额==", balance);
-              console.log("web3Provider:", this.web3Provider);
-              console.log("switchChainFlag:", this.switchChainFlag);
-              console.log("web3:", this.web3);
-              this.initContracts();
-              this.node.getComponent("Loading").showStart();
+              console.log("web3Provider:", my.web3Provider);
+              console.log("switchChainFlag:", my.switchChainFlag);
+              console.log("web3:", my.web3);
+              my.initContracts();
+              if(my.node.getComponent("Loading")){
+                my.node.getComponent("Loading").showStart();
+              }
+              // NodeData.getCanvasNode().getComponent("Loading").showStart();
             }
           });
           // 监听钱包切换
-          let my = this;
+          // let my = this;
           WinEthereum.on("accountsChanged", function (accounts) {
             if (accounts.length == 0) {
               console.log("没有已授权的钱包地址");
@@ -101,7 +105,8 @@ export default class Web3Class extends cc.Component {
         .on("receipt", function (receipt) {
           console.log(receipt);
           //开始游戏
-          my.getComponent("Loading").goToGame();
+          cc.director.loadScene('game');
+          // my.node.getComponent("Loading").goToGame();
         })
         .on("error", function (error) {
           console.log(error);
@@ -118,7 +123,7 @@ export default class Web3Class extends cc.Component {
         .Expand()
         .send({
           from: my.currentAccount,
-          value: my.web3.utils.toWei("0.3", "ether"),
+          value: my.web3.utils.toWei("0.5", "ether"),
         })
         .on("receipt", function (receipt) {
           console.log(receipt);
@@ -130,13 +135,35 @@ export default class Web3Class extends cc.Component {
     }
   }
 
-  //   StorageRetrieve() {
-  //     if (this.GameContract) {
-  //       this.GameContract.methods.retrieve().call((err, result) => {
-  //         console.log("retrieve:" + result);
-  //       });
-  //     }
-  //   }
+    async getTopPlayerCall() {
+      if (this.GameContract) {
+        let result = await this.GameContract.methods.getTopPlayer().call();
+        console.log(result)
+      }
+    }
+
+    async totalBlockCall() {
+      if (this.GameContract) {
+        let result = await this.GameContract.methods.totalBlock().call();
+        console.log(result)
+      }
+    }
+
+    async getRankData(){
+      let data = {
+        block:"BLOCK:0",
+        address:"ADDRESS:0x21Fca6F577b5b6cdD711A5E0E1988c0e38DeC1f0",
+        grade:"Grade:99325525"
+      }
+      if (this.GameContract) {
+        let block = await this.GameContract.methods.totalBlock().call();
+        let result = await this.GameContract.methods.getTopPlayer().call();
+        data.block = 'BLOCK:' + block;
+        data.address = 'ADDRESS:' + result[0];
+        data.grade = 'Grade:' + result[1];
+      }
+      return data;
+    }
 
   async postGrade(grade) {
     let my = this;

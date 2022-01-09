@@ -12,6 +12,6 @@ export const polygonMumbai = {
   },
 };
 
-export const GAMEADDRESS = "0xd3eeB41D410f94397B1B9C94D427E05e0dD72645";
+export const GAMEADDRESS = "0x21Fca6F577b5b6cdD711A5E0E1988c0e38DeC1f0";
 
 
