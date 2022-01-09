@@ -12,7 +12,7 @@
     // var polygonNetwork = 137
     var polygonNetwork = 80001
     var curNetVersion = 0
-    var mainAddr = '0x42d09c2b79da03450a779c7626c1365f12078988'
+    var mainAddr = '0xB5F8BE00717Cf3BD5A0c168D083066DD0f6aA445'
     var monkAddr = mainAddr
 
     var prebuy = document.getElementById('prebuy');
@@ -101,17 +101,17 @@
 
     const NFT_ABI = [
         {
-            "inputs":[
+            "inputs": [
                 {
-                    "internalType":"uint256",
-                    "name":"tokenId",
-                    "type":"uint256"
+                    "internalType": "uint256",
+                    "name": "_num",
+                    "type": "uint256"
                 }
             ],
-            "name":"claim",
-            "outputs":[],
-            "stateMutability":"nonpayable",
-            "type":"function"
+            "name": "claim",
+            "outputs": [],
+            "stateMutability": "nonpayable",
+            "type": "function"
         }
     ];
 
@@ -134,7 +134,7 @@
                 from:ethereum.selectedAddress,
                 to:monkAddr,
                 // value:'0x'+value.toString(16),
-                data:abiInterface.encodeFunctionData("claim", [4])
+                data:abiInterface.encodeFunctionData("claim", [num])
             },
         ];
         console.log(params)

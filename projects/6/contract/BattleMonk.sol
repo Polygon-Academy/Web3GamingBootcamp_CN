@@ -1261,6 +1261,8 @@ contract BattleMonk is ERC721Enumerable, ReentrancyGuard, Ownable {
 
     string private _tokenJson = "";
     uint256 private _tokenId = 0;
+    uint private _maxSupply = 50;
+    // uint256 public cost = 0.01 ether;
 
     function updateTokenJson(string calldata _newTokenJson) public{
         _tokenJson = _newTokenJson;
@@ -1270,18 +1272,27 @@ contract BattleMonk is ERC721Enumerable, ReentrancyGuard, Ownable {
         return _tokenJson;
     }
 
+    function updateMaxSupply(uint _newMaxSupply) public onlyOwner{
+        _maxSupply = _newMaxSupply;
+    }
 
-    function claim(uint _num) public {
-        require(_msgSender().balance >= _num, "Your balance is not enough");
-        // address receiver = 0x6A326435df96c444ACe1ced5448442C2f2A67830;
-        // receiver.transfer(_num);
+    function getMaxSupply() public view returns(uint){
+        return _maxSupply;
+    }
+
+    function claim(uint _num) public payable{
+        uint256 supply = totalSupply();
+        require(_num > 0, "need to mint at least 1 NFT");
+        require(supply + _num <= _maxSupply, "num over limit");
+        // require(msg.value >= cost * _num, "Your balance is not enough");
+
         for(uint i = 0; i < _num; i++){
             _tokenId = _tokenId + 1;
             _safeMint(_msgSender(), _tokenId);
         }
     }
 
-    function burn(uint256 tokenId) public nonReentrant {
+    function burn(uint256 tokenId) public onlyOwner {
         _burn(tokenId);
     }
     
