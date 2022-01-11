@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "effect-light",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1.3333333333333333,
+  "sample": 30,
+  "speed": 0.2,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": -90
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": -180
+        },
+        {
+          "frame": 1,
+          "value": -270
+        },
+        {
+          "frame": 1.3333333333333333,
+          "value": -360
+        }
+      ]
+    }
+  },
+  "events": []
+}

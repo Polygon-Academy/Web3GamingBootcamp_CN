@@ -1,0 +1,16 @@
+{
+	"goods":[
+		{"itemId":1,"sex":0,"icon":"bitcode", "name":"text_bitcode", "priceList":[[5200,5500,0.45],[12000,13000,0.45],[70000,80000,0.1]]},
+		{"itemId":2,"sex":0,"icon":"phone", "name":"text_phone", "priceList":[[4000,4300,0.25],[8000,9000,0.5],[17000,18000,0.25]]},
+		{"itemId":3,"sex":0,"icon":"paint", "name":"text_paint", "priceList":[[20000,22000,0.4],[35000,40000,0.1],[450000,500000,0.5]]},
+		{"itemId":4,"sex":1,"icon":"gold", "name":"text_gold", "priceList":[[32000,34000,0.4],[60000,65000,0.1],[135000,150000,0.5]]},
+		{"itemId":5,"sex":1,"icon":"shose", "name":"text_shose", "priceList":[[430,500,0.3],[950,1000,0.4],[2700,2900,0.3]]},
+		{"itemId":6,"sex":1,"icon":"garlic", "name":"text_garlic", "priceList":[[100,200,0.3],[530,600,0.4],[800,900,0.3]]},
+		{"itemId":7,"sex":0,"icon":"gameId", "name":"text_gameId", "priceList":[[1100,1300,0.3],[2200,2400,0.4],[6000,6500,0.3]]},
+		{"itemId":8,"sex":1,"icon":"uav", "name":"text_uav", "priceList":[[3200,3400,0.25],[7000,7500,0.5],[14000,15000,0.25]]},
+		{"itemId":9,"sex":2,"icon":"bag", "name":"text_bag", "priceList":[[32000,34000,0.30],[60000,65000,0.50],[135000,150000,0.2]]},
+		{"itemId":10,"sex":2,"icon":"overcoat", "name":"text_overcoat", "priceList":[[3200,3400,0.25],[7000,7500,0.5],[14000,15000,0.25]]},
+		{"itemId":11,"sex":2,"icon":"perfume", "name":"text_perfume", "priceList":[[430,500,0.3],[950,1000,0.4],[2700,2900,0.3]]},
+		{"itemId":12,"sex":2,"icon":"snacks", "name":"text_snacks", "priceList":[[100,200,0.3],[530,600,0.4],[800,900,0.3]]}
+
+]}
