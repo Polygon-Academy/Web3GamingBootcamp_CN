@@ -1,0 +1,110 @@
+.container{
+    background: url('../../assets/bg.gif') no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.bodyG{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 80%;
+    height: 80px;
+    border-bottom: 1px solid #ffffff;
+    font-size: 24px;
+    float: left;
+}
+.smtitle{
+    margin: 20px;
+    font-size: 22px;
+}
+.modalbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contbody{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 20px;
+}
+.contbody>span{
+    width: 50%;
+    color: #625e56;
+    font-weight: 300;
+}
+.bodylogo{
+    margin-top: -40px;
+}
+.contplaybtn{
+    margin: 20px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.playbtn{
+    width: 220px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 20px;
+    border-radius: 30px;
+}
+.pagetabs li{
+    cursor: pointer;
+    display: inline-block;
+    height: 13px;
+    margin: 0 5px;
+    padding: 0;
+    position: relative;
+    width: 13px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.pagetabs li.active{
+background-color: #467ba2;
+}
+
+
+.pagefooterpic{
+    position: relative;
+    height: 440px;
+}
+
+.pagefooterpic>div{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    transition: all 0.5s;
+}
+
+.pagefooterpic .up{
+    right: 140px;
+    top: 40px;
+    z-index: 100;
+}
+
+.pagefooterpic .down{
+    right: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.pagefooterpic>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+.manswap{
+
+}
+.womanswap{
+
+}
