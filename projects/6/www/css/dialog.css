@@ -1,0 +1,150 @@
+.fn-hidden {
+    display: none;
+}
+
+.dialog {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4)
+}
+
+.dialog .dialog-wrapper .close {
+    width: 34px;
+    height: 34px;
+    line-height: 30px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: #FFFFFF;
+}
+
+.dialog .dialog-wrapper {
+    position: relative;
+    width: 1200px;
+    height: 560px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(1,1,1,.2)
+}
+
+.dialog .dialog-bg{
+    width: 100%;
+    height: 100%;
+    background: url(../image/dialog-bg.png) no-repeat center center;
+}
+
+.dialog .dialog-bg .dialog-title{
+    padding-top: 108px;
+    padding-left: 654px;
+    font-size: 40px;
+    color: #625441;
+}
+
+.dialog .dialog-bg .dialog-howmany{
+    top: 153px;
+    padding-left: 520px;
+    font-size: 18px;
+}
+
+.dialog .dialog-bg .num-bg{
+    position:absolute;
+    width: 610px;
+    height: 168px;
+    background: url(../image/num-bg.png) no-repeat center center;
+    top: 170px;
+    left: 417px;
+}
+
+.dialog .dialog-bg .num-bg .add-bg{
+    position:absolute;
+    top: 36px;
+    left: 181px;
+}
+
+.dialog .dialog-bg .num-bg .reduce{
+    position:absolute;
+    width: 44px;
+    height: 44px;
+    background: url(../image/reduce.png) no-repeat center center;
+    top: 35px;
+    left: 157px;
+}
+
+.dialog .dialog-bg .num-bg .add{
+    position:absolute;
+    width: 44px;
+    height: 44px;
+    background: url(../image/add.png) no-repeat center center;
+    top: 35px;
+    left: 336px;
+}
+
+.dialog .dialog-bg .num-bg .num-text{
+    position:absolute;
+    font-size: 26px;
+    color: white;
+    top: 44px;
+    left: 262px;
+}
+
+.dialog .dialog-bg .num-bg .line{
+    position:absolute;
+    top: 100px;
+    left: 42px;
+}
+
+.dialog .dialog-bg .num-bg .price{
+    position:absolute;
+    font-size: 17px;
+    /*color: white;*/
+    top: 110px;
+    left: 205px;
+}
+
+.dialog .dialog-bg .num-bg .price-per{
+    position:absolute;
+    font-size: 17px;
+    /*color: white;*/
+    top: 110px;
+    left: 315px;
+}
+
+.dialog .dialog-bg .num-bg .pol{
+    position:absolute;
+    width: 25px;
+    top: 113px;
+    left: 287px;
+}
+
+.dialog .dialog-bg .total{
+    position:absolute;
+    font-size: 30px;
+    /*color: white;*/
+    top: 366px;
+    left: 617px;
+}
+
+.dialog .dialog-bg .totalnum{
+    position:absolute;
+    font-size: 30px;
+    color: #2A6CEF;
+    top: 366px;
+    left: 710px;
+}
+.dialog .dialog-bg .totalpol{
+    position:absolute;
+    /*width: 30px;*/
+    top: 366px;
+    left: 780px;
+}
+
+
+.dialog .dialog-bg .buynow{
+    position:absolute;
+    top: 420px;
+    left: 592px;
+}

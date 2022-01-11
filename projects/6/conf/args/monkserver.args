@@ -1,0 +1,1 @@
+-confpath conf -logpath log -imgdomain http://img.battlemonk.io:8080
