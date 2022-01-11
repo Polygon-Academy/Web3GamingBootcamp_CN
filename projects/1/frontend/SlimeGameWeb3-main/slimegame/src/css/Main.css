@@ -1,0 +1,148 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.InfoCard{
+    background-color: #1b1b1c;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 20px;
+    position: relative;
+    width: 440px;
+    height: 513px;
+    justify-content: center;
+    margin-top: 20px;
+    /* size: b5; */
+}
+.Card{
+    background-color: #1b1b1c;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    border-radius: 20px;
+    position: relative;
+    /* width: 500px;
+    height: 300px; */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Card2{
+    background-color: #1b1b1c;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    border-radius: 20px;
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 400px;
+    width: 740px;
+}
+
+.InfoCard> .InfoText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 40px;
+}
+
+.Btn1 {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    color: white;
+    background-color: #1b1b1c;
+    position: relative;
+    width: 100px;
+}
+
+.Btn2 {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    color: white;
+    background-color: #1b1b1c;
+    position: relative;
+    width: 200px;
+}
+
+.Btn1:hover,.Btn2:hover, .Card:hover{
+        box-shadow: 0 0 40px 40px red inset;
+}
+
+.TextBox{
+    height: 50px;
+    display: flex;
+    
+}
+
+.ChallengeBg{
+    position: relative;
+    width: 68vw;
+    display: flex;
+    height: 75vh;
+    background: url(http://localhost:3000/static/media/bgChallenge.5b44ed3e06619995dc0d.png) center center / cover no-repeat fixed;
+    transform: scale(0.8);
+    justify-content: space-between;
+    align-items: center;
+}
+.AdventureBg{
+    position: relative;
+    width: 68vw;
+    display: flex;
+    height: 75vh;
+    /* background: url(http://localhost:3000/static/media/bgChallenge.5b44ed3e06619995dc0d.png) center center / cover no-repeat fixed; */
+    transform: scale(0.8);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ConnectBtn {
+    position: relative;
+}
+
+.ImgCard{
+    background-color: #1b1b1c;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    border-radius: 20px;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ImgBg1{
+    position: relative;
+    background: url(../image/1.jpeg)
+
+}
+
+.ImgBg2{
+    position: relative;
+    background: url(../image/2.png)
+
+}
+
+.ImgBg3{
+    position: relative;
+    background: url(../image/3.png)
+
+}
+
+.ImgChallenge{
+    position: relative;
+    background: url(../image/bgChallenge.png)
+
+}
