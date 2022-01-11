@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="423px" height="491px" viewBox="0 0 423 491" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组</title>
+    <defs>
+        <path d="M192.5,452 C298.814814,452 385,391.186305 385,266.853692 C385,142.521079 320.602527,0 192.5,0 C64.3974727,0 0,142.521079 0,266.853692 C0,391.186305 86.1851857,452 192.5,452 Z" id="path-1"></path>
+        <filter x="-8.8%" y="-5.1%" width="117.7%" height="115.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="11" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="133.223844 77.2069137 90.7682104 115.659956 63.7322494 83.1789792 50.0512108 130.501855 75.4502599 170.605987 63.7322494 225.683452 80.7669151 282.887185 63.7322494 313.878841 116.126605 325.705678 133.223844 356.712035 186.500281 325.705678 232.573767 356.712035 266.537474 333.614634 303.417965 333.614634 326.280908 313.878841 310.573518 246.301693 335.051211 181.946357 303.417965 141.185056 317.83039 115.659956 286.760245 77.2069137 253.661538 101.587511 211.73506 77.2069137 167.628202 101.587511"></polygon>
+        <filter x="-3.7%" y="-3.8%" width="107.4%" height="107.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowSpreadInner1"></feMorphology>
+            <feGaussianBlur stdDeviation="5.5" in="shadowSpreadInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="9" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-33.000000, -14.000000)">
+            <g id="编组" transform="translate(52.000000, 22.293086)">
+                <g id="椭圆形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FF8F8F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="直线-5">
+                    <use fill="#FFFB78" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                </g>
+                <rect id="矩形" fill="#D8D8D8" x="113" y="146.706914" width="160" height="160" rx="14"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
