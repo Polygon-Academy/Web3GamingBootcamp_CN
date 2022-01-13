@@ -1,5 +1,6 @@
 .DS_Store
 build/*
+./assets/*
 ./projects/1/*
 ./projects/2/*
 ./projects/3/*
