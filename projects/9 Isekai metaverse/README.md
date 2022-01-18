@@ -7,6 +7,7 @@
 	Rock：技术顾问
 	Yang Li：产品测评
 	
+	
 项目简介：Isekai Metaverse is a decentalized ACGN creator ecosystem led by community that enables  members to create animes, comics, games and novels.
 Isekai Metaverse uses AI algorithm powered incentive mechanism and creator protocol to build a bottom up ACGN metaverse where creators can use NFT culture lego bricks to participate community creation and eventually form a NFT content network.  Isekai Metaverse provides various creation tools and distribution channels.
 
