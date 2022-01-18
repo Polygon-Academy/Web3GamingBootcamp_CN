@@ -1,7 +1,8 @@
 项目名称：Isekai Metaverse
 
-队内分工：Cong Yunfeng: 产品设计，产品方向把控，智能合约编写，前端开发，视觉设计	         
-	Chen Miao: 产品设计，项目预算，JD
+队内分工：Cong Yunfeng: 产品设计，产品方向把控，智能合约编写，前端开发，视觉设计	
+	 Kloss Chen: 产品设计，项目预算，JD
+	Zatana Li: 产品顾问
 	Joy Zhou：市场运营，商务，公关
 	Lion Chan：技术顾问
 	Rock：技术顾问
