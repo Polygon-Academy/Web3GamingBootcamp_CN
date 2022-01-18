@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "hardhat": "^2.2.1",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.12"
+  }
+}
