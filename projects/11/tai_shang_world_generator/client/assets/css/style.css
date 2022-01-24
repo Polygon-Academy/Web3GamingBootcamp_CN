@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-width: none;
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* 左侧 map */
+#map-wrapper {
+  width: 80vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+#map-container {
+  height: inherit;
+  overflow-y: scroll;
+  position: relative;
+}
+
+#map,
+/* #poem, */
+#original-map {
+  transition: 666ms ease-out;
+}
+
+/* #poem {
+  height: 10.5vh;
+  line-height: 10.5vh;
+} */
+
+#moving-block {
+  width: 2.5vw;
+  height: 2.5vw;
+  position: absolute;
+  z-index: 1;
+}
+
+.map-block {
+  overflow: hidden;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-bottom: none;
+}
+
+.map-block.ice,
+.map-block.sand,
+.map-block.green {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.map-block.ice {
+  background-image: url(../img/bg/ice.png);
+}
+
+.map-block.sand {
+  background-image: url(../img/bg/sand.png);
+}
+
+.map-block.green {
+  background-image: url(../img/bg/green.png);
+}
+
+.original-map-block {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-bottom: none;
+}
+
+.original-map-block:nth-child(odd) {
+  border-left: none;
+}
+
+.original-map-block:nth-child(even) {
+  border-left: none;
+}
+
+.original-map-block:nth-child(1) {
+  border-left: 2px solid black;
+}
+
+.original-map-row:last-child {
+  border-bottom: 2px solid black;
+}
+
+/* 右侧及底部 */
+p {
+  height: 11vh;
+  line-height: 11vh;
+  text-align: center;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 2.5vw;
+}
+
+progress {
+  transition: 1s ease-in-out;
+}
+
+.form-control {
+  margin: 8vh 0 3vh 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rule-border {
+  border-color: hsla(var(--bc) / var(--tw-border-opacity, 1));
+  border-width: 1px;
+  border-radius: var(--rounded-btn, 0.5rem);
+  --tw-border-opacity: 0.2;
+}
+
+#alert {
+  transition: 100ms ease-in-out;
+}
+
+#original-map,
+#map-container {
+  margin-top: 10.5vh;
+}
+
+/* 对话框 */
+.dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10em;
+}
+
+.dialog.hidden {
+  display: none;
+}
