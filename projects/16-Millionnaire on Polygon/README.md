@@ -1,55 +1,51 @@
-# 队伍编号：16 - Polygon上的百万富翁
+# Millionnaire on Polygon
 
-# 队内分工：
+# INTRODUCTION：
 
-Kevin: 队长 全栈开发  catmi666@163.com
+Millionnaire on Polygon is a simulated investment game：Players participate in market investment through initial funds to get more market returns within a specified round.
 
-# 项目简介：
-
-本游戏是模拟投资类游戏，玩家通过初始资金参与市场投资，以在规定的回合之内拿到更多的市场回报。
-
-# 体验链接：
+# DEMO：
 
 https://catkevin.github.io/Millionaires-On-Polygon-web/
 
-备注：请确保浏览器安装了MetaMask插件，以便正常参与游戏 ~ have a good time!
+NOTE: Please make sure the browser has the MetaMask plugin installed in order to participate in the game normally ~ have a good time!
 
-# 视频链接：（含PPT）
+# VIDEO：
 
 YouTube: https://youtu.be/aGrUX1kip8s
 
-百度网盘链接：https://pan.baidu.com/s/13kHDr6FFTll_u1got-GAcg 
-提取码：d8j8  （如失效请及时联系）
-
-# 项目地址（github）：
+# GITHUB：
 
 https://github.com/CatKevin/Web3GamingBootcamp_CN/tree/master/projects/16
 
-# 游戏界面：（演示示例）
+# Project Details：
 
-## 首页--有提示连接钱包
+## front page
 
 ![image-20220109005021280](https://raw.githubusercontent.com/CatKevin/Web3GamingBootcamp_CN/master/projects/16/images/image-20220109005021280.png)
 
-备注：用户需要支付一定的Matic才可以加入游戏。
+NOTE：Users need to pay a certain amount of Matic to join the game.
 
-## 游戏主界面 -- 每日市场行情
+## PAGE: daily market conditions
 
 ![image-20220109005326940](https://raw.githubusercontent.com/CatKevin/Web3GamingBootcamp_CN/master/projects/16/images/image-20220109005326940.png)
 
-备注：市场行情用于提示用户近年各种货物的情况。
+NOTE:Market conditions are used to remind users of various goods in recent years.
 
-## 游戏主界面--模拟投资操作界面
+## PAGE: simulated investment
 
 ![image-20220109005425190](https://raw.githubusercontent.com/CatKevin/Web3GamingBootcamp_CN/master/projects/16/images/image-20220109005425190.png)
 
-备注：
+NOTE:
 
-1、用户可以根据自己的流动资金购买商品或者扩充仓库（也可以和合约交互扩充仓储）；
+1、Users can purchase goods or expand the warehouse according to their own liquidity (and can also interact with the contract to expand the warehouse)；
 
-2、在市场行情允许的情况下，用户可以买入/卖出商品；
+2、Users can buy/sell commodities when market conditions allow；
 
-3、用户可以提前退休或者继续进行游戏，直到达到退休年龄（70岁），结束游戏；
+3、Users can retire early or continue playing until the retirement age is reached, ending the game；
 
-4、合约用于存储比赛记录和发放奖励（每个赛季顶尖的投资者将获得巨额Matic）.
+4、The contract is used to store game records and distribute rewards (top investors will receive huge Matic each season).
 
+# CONTACT：
+
+Kevin: Full Stack developer  catmi666@163.com
