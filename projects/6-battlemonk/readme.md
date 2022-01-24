@@ -1,21 +1,22 @@
-队伍编号：6
+Project：Battle Monk
 
-队内分工：
-Mark：负责项目的整体方向和未来的发展路线规划，以及各种算法的构思提出，各种文档撰写，数据表配置，美术资源输出，团队内部协作，以及外部对接
-程亮：后端
-晨阳：前端
-王君：合约
-杨义：美术
+Team：
+Mark：product design, product manager
+Miles：server
+Chengyang：frontend
+Wangjun：smart contract
+Yangyi：Art design, UI
 
-项目简介：
-斗战武僧士是一款回合制爬塔挂机卡牌游戏。
-玩家们可以通过在高塔内不断挑战强敌，提升自己在高塔内的层数。
-每战胜一层高塔的守卫，玩家都能获得丰厚的奖励。
-在玩家离开游戏后，玩家的角色也不会休息，仍然会在高塔内拼命为玩家赚取离线收益喔。
-随着玩家的武僧战斗力的提升，还可以参加竞技场、冒险地图等可获得更高收益的玩法。
+Project Introduction：
+Battle Monk is a turn-based auto- fight game.
+The players need to fight with all kind of monsters in a mystery tower, and get to the higher level.
+By defeat the monsters of each level, the player will gain bulk of rewards.
+And the character will keep fighting in the tower and earn fortunes even after the player log out.
+As long as the character keep growing stronger, the player can participate the arena and venture map to get more profits.
+And unlock more systems in the game.
+And one of our goal is to lower the threshold as much as we can.
+To play our game, you don't have to cost nearly nothing to get start.
 
-视频链接：https://youtu.be/UCkF_yWZiws
+Link of Introduction：https://youtu.be/UCkF_yWZiws
 
-网站链接：http://www.battlemonk.io:8080/
-
-仓库地址（含ppt）：PPT和代码也放在本文件夹里了
+Web site：http://www.battlemonk.io:8080/
